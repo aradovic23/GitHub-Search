@@ -1,0 +1,80 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #545d68;
+}
+
+img {
+  margin-top: 50px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+a {
+  color: black;
+}
+
+a:link {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+
+a:visited {
+  font-size: 16px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6200EE;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  margin-top: 15px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.wrap .title {
+  font-size: 20px;
+  width: 100%;
+  font-weight: bold;
+  flex: auto;
+  display: inline;
+}
+
+.wrap .title span {
+  color: #6200EE;
+}
+
+.wrap input {
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #6200EE;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 10px;
+  flex: auto;
+  display: inline;
+}
+
+.wrap button {
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  background-color: #ccc;
+}
+
+/*# sourceMappingURL=style.css.map */
